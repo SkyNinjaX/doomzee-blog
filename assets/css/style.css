@@ -1,10 +1,5 @@
-/* Add any custom styling here. This is optional since Tailwind is already being used. */
 body {
     font-family: system-ui, sans-serif;
     height: 100%;
     margin: 0;
-}
-
-.abt {
-    height: 100%;
 }
