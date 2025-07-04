@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Design for Beginners - 𝔻𝕠𝕠𝕞𝕫𝕖𝕖’s Blog</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100 text-gray-800 font-sans">
+    <header class="bg-white p-6 shadow-md border-b border-gray-200">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-gray-900">𝔻𝕠𝕠𝕞𝕫𝕖𝕖’s Blog</h1>
+        <nav class="space-x-4 text-sm">
+          <a href="../index.html" class="text-gray-600 hover:text-black"
+            >Home</a
+          >
+          <a href="../about.html" class="text-gray-600 hover:text-black"
+            >About</a
+          >
+          <a href="../contact.html" class="text-gray-600 hover:text-black"
+            >Contact</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-10">
+      <article class="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow">
+        <h2 class="text-3xl font-bold mb-4 text-gray-900">
+          Responsive Design for Beginners
+        </h2>
+        <p class="text-sm text-gray-500 mb-6">Posted: July 3, 2025</p>
+
+        <p class="mb-4">
+          These days, your website needs to work on every device. That’s what
+          responsive design is all about — and with Tailwind CSS, it’s super
+          easy.
+        </p>
+
+        <h3 class="text-2xl font-semibold mt-6 mb-2">
+          1. Use Tailwind's Breakpoints
+        </h3>
+        <p class="mb-4">
+          Tailwind uses simple prefixes: <code>sm:</code>, <code>md:</code>,
+          <code>lg:</code>, <code>xl:</code>. Here's a quick example:
+        </p>
+        <pre class="bg-gray-100 p-4 rounded text-sm overflow-x-auto mb-4">
+<code>&lt;div class="text-sm md:text-lg"&gt;Resize me!&lt;/div&gt;</code></pre>
+
+        <h3 class="text-2xl font-semibold mt-6 mb-2">2. Flex and Grid</h3>
+        <p class="mb-4">
+          Use <code>flex</code> and <code>grid</code> layouts with responsive
+          adjustments. They're powerful, clean, and readable.
+        </p>
+
+        <h3 class="text-2xl font-semibold mt-6 mb-2">3. Test on All Devices</h3>
+        <p class="mb-4">
+          Use DevTools to preview how your site looks on mobile, tablet, and
+          desktop. Always test responsiveness before going live.
+        </p>
+
+        <p class="mt-6 font-semibold text-gray-600">
+          📱 Responsive design isn’t optional. Make your site look good
+          everywhere.
+        </p>
+      </article>
+    </main>
+
+    <footer
+      class="bg-white border-t border-gray-200 p-4 text-center text-sm text-gray-500"
+    >
+      &copy; 2025 𝔻𝕠𝕠𝕞𝕫𝕖𝕖. Built with 🔥 and Tailwind.
+    </footer>
+  </body>
+</html>

@@ -3,23 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
-    <meta
-      name="description"
-      content="Contact 𝔻𝕠𝕠𝕞𝕫𝕖𝕖 directly via email or social media."
-    />
+    <title>Contact - 𝔻𝕠𝕠𝕞𝕫𝕖𝕖's Blog</title>
     <link
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
       rel="stylesheet"
     />
   </head>
-  <body class="bg-white text-gray-800 p-6 max-w-3xl mx-auto">
-    <h1 class="text-3xl font-bold mb-4">Contact Me</h1>
-    <p>
-      You can reach me at:
-      <a class="text-blue-600 underline" href="mailto:dumtomicheal@gmail.com"
-        >dumtomicheal@gmail.com</a
-      >
-    </p>
+  <body class="bg-gray-100 text-gray-800 font-sans">
+    <header class="bg-white p-6 shadow-md border-b border-gray-200">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-gray-900">Doomzee's Blog</h1>
+        <nav class="space-x-4 text-sm">
+          <a href="index.html" class="text-gray-600 hover:text-black">Home</a>
+          <a href="about.html" class="text-gray-600 hover:text-black">About</a>
+          <a href="contact.html" class="text-black font-semibold">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-10">
+      <h2 class="text-4xl font-bold mb-6 text-center text-gray-900">
+        Contact Me
+      </h2>
+      <div class="max-w-2xl mx-auto bg-white p-6 rounded-lg shadow-md">
+        <form action="#" method="POST" class="space-y-4">
+          <div>
+            <label for="name" class="block font-medium text-gray-700"
+              >Name</label
+            >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="w-full border border-gray-500 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+            />
+          </div>
+          <div>
+            <label for="email" class="block font-medium text-gray-700"
+              >Email</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="w-full border border-gray-500 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+            />
+          </div>
+          <div>
+            <label for="message" class="block font-medium text-gray-700"
+              >Message</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              class="w-full border border-gray-500 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded shadow transition"
+          >
+            Send
+          </button>
+        </form>
+      </div>
+    </main>
+
+    <footer
+      class="bg-white border-t border-gray-200 p-4 text-center text-sm text-gray-500"
+    >
+      &copy; 2025 𝔻𝕠𝕠𝕞𝕫𝕖𝕖. Built with 🔥 and Tailwind.
+    </footer>
   </body>
 </html>
